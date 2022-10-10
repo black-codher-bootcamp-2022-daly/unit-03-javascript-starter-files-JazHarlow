@@ -14,3 +14,19 @@ const c = a + b;
 
 console.log(c);
 
+const userName = 'Gigi';
+
+function sayHey () {
+    console.log('Hey ' + userName)
+}
+
+sayHey();
+
+function conversation () {
+    sayHey();
+    console.log('How are you?')
+    console.log('Goodbye')
+
+}
+
+conversation();
