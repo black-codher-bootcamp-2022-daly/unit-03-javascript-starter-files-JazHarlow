@@ -22,11 +22,53 @@ function sayHey () {
 
 sayHey();
 
-function conversation () {
-    sayHey();
-    console.log('How are you?')
-    console.log('Goodbye')
+//function conversation () {
+ //   sayHey();
+ //   console.log('How are you?')
+ //   console.log('Goodbye')
 
-}
+//}
 
-conversation();
+//conversation();
+
+//function sayHey (name, surname) {
+  //  console.log('Hey ' + name + surname)
+//}
+
+//function conversation () 
+ //   sayHey('Jaz', ' Harlow');
+ //   sayHey('Leon', ' Harlow');
+ //   sayHey('Remi', ' Harlow');
+   
+
+ //function addTwoNumbers(first, second) {
+   // const total =first + second;
+   // return 'the total is:' + total;
+ //}
+
+ //console.log(addTwoNumbers(2,3));
+
+
+ /*const age=17+5;
+ function futureAge (userName, age) {
+   
+ }
+
+ console.log ('Hi ' + userName, '! You will be '+ age, 'years old in 5 years' )
+*/
+
+   function currentAge (name, age) {
+    const currentAge= age 
+    return name + currentAge
+ };
+
+ console.log(currentAge('Jaz is ', 38))
+
+   function calculateFutureAge (name, age) {
+    const calculatedAge= age + 5
+    return name + "will be " + calculatedAge + " years old in 5 years"
+};
+
+ console.log(calculateFutureAge('Jaz ', 38))
+
+
