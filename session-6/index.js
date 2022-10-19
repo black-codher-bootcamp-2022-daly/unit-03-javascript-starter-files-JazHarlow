@@ -1,25 +1,26 @@
 // Use this randomNumber inside of the while/for loops to generate a random number
+// ****************************************************TASK 1****************************************************
 
-// let counter = 1;
-// while(counter <= 10) {
-// const randomNumber = Math.round(Math.random() * 10);
-
-//     console.log('while Random', randomNumber,)
-//     counter = counter + 1;
-//   }
-
-
-  let counter = 0;
+  let counter = 1;
 
 while (counter < 10) {
     const randomNumber = Math.round(Math.random() * 10);
-    console.log('while random',randomNumber);    
+    console.log('while random ',randomNumber);    
     counter = counter + 1
 }
 
 
+// ****************************************************TASK 2****************************************************
 
-// ****************************************************TASK 1****************************************************
+let counter2 = 0;
+
+for (let counter2 = 1; counter2 <=20; counter2++) {
+    const randomNumber = Math.round(Math.random() * 10);
+    console.log('Total ' + randomNumber);    
+   
+}
+
+
 
 
 //let counter = 0;
@@ -36,7 +37,6 @@ while (counter < 10) {
     // do something
    // console.log('inside the while', counter)
     //counter = counter + 1
-  
    
 //}
 
