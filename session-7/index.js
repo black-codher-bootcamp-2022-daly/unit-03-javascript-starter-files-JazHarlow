@@ -1,4 +1,63 @@
 // ****************************************************TASK 1****************************************************
+// const personA = {
+//   name: "Jaz",
+//   age: 38,
+// };
+
+// const personB = {
+//   name: "Remi",
+//   age: 10,
+// };
+
+// const personC = {
+//   name: "Zayn",
+//   age: 5,
+// };
+
+// const persons = [personA, personB, personC];
+// // console.log("test");
+// // const ages = [5,10,15,20]
+
+// console.log(persons[2].name)
+
+
+// const animals = ["dog", "cat", "mouse"];
+// console.log({animals, first:animals [0], second: animals[1], third: animals[2] });
+
+// for (let index = 0; index < animals.length; index++) {
+//   const animals =animals[index];
+  
+// }
+
+// animals.pop()
+// console.log(animals)
+
+
+// ****************************************************TASK 2****************************************************
+
+const names = ['bex', 'jaz', 'isra', 'harry', 'sarah', 'kyle', 'lucy', 'katie', 'luke', 'hannah'];
+
+console.log ('random', names);
+
+names.reverse()
+console.log ('ascending', names);
+
+names.sort().reverse();
+console.log ('descending', names);
+
+
+const MagicNumbers = [5, 325, 67, 100000, 150]
+
+MagicNumbers.sort();
+console.log(MagicNumbers);
+
+MagicNumbers.reverse()
+console.log(MagicNumbers)
+
+
+
+
+
 
 
 
