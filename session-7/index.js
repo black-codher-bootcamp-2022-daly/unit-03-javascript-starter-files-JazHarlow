@@ -46,40 +46,13 @@ names.sort().reverse();
 console.log ('descending', names);
 
 
-const MagicNumbers = [5, 325, 67, 100000, 150]
+// const MagicNumbers = [5, 325, 67, 100000, 150]
 
-MagicNumbers.sort();
-console.log(MagicNumbers);
+// MagicNumbers.sort();
+// console.log(MagicNumbers);
 
-MagicNumbers.reverse()
-console.log(MagicNumbers)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// ****************************************************TASK 2****************************************************
-
-
-
-
-
-
+// MagicNumbers.reverse()
+// console.log(MagicNumbers)
 
 
 
@@ -94,8 +67,16 @@ const people = [
   { name: 'killmonger', age: 32 },
 ];
 
+
+
 // This is a helper function that should be used in the final task of the session.
 // You should pass this function to the sort method to sort the ages of each individiual in the people array of objects
 function compare(a, b) {
   return a.age - b.age;
+
 }
+
+const finalArray = people.sort(compare).map(item => item.name)
+console.log (finalArray); 
+
+
